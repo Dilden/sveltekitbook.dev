@@ -1,3 +1,6 @@
+# sveltekitbook.dev
+The website at sveltekitbook.dev, built with SvelteKit + TailwindCSS
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
