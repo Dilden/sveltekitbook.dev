@@ -2,7 +2,7 @@
   export let color;
 </script>
 
-<div class='w-full {color}'>
+<div class='w-full {color} max-h-screen'>
   <div class='container mx-auto'>
     <slot>
       default section content
