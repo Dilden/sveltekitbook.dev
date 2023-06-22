@@ -541,7 +541,7 @@ Table of Contents
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
-  background-image: url('cover.jpeg');
+  background-image: url('$lib/assets/cover.jpeg');
   background-size: 100% 100%;
 }
 

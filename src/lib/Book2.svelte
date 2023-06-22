@@ -1,5 +1,8 @@
 <script>
-  import cover from '$lib/cover.jpeg';
+  import cover from '$lib/assets/cover.jpeg';
+  export let classes;
 </script>
 
-<img src={cover} />
+<div {classes}>
+  <img src={cover} alt='Cover of the book SvelteKit Up and Running'/>
+</div>
