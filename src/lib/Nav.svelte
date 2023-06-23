@@ -1,29 +1,45 @@
 <script>
   export let sections = [
     { 
-      title: 'SvelteKit Up and Running',
+      title: 'Buy Now',
       href: 'buy'
     },
     {
-      title: 'About the Book',
+      title: 'Book',
       href: 'content'
+    },
+    {
+      title: 'Author',
+      href: 'author'
     },
     {
       title: 'FAQ',
       href: 'faq'
     },
-    {
-      title: 'The Author',
-      href: 'author'
-    }
   ];
 </script>
 
 <div class='fixed top align-center w-screen grid grid-cols-4'>
-  <nav class='z-150 bg-neutral-300 rounded-b-lg shadow-lg col-start-2 col-span-2'>
-    <ul class='list-none flex flex-direction justify-evenly gap-x-1 flex-nowrap'>
-      {#each sections as section}
-        <li><a class='link transition-all text-lg py-0.5 px-AGPL3' href='#{section.href}'>{section.title}</a></li>
+  <nav class='z-150 bg-[#323131] rounded-b-lg drop-shadow-lg col-start-2 col-span-2'>
+    <ul class='list-none flex flex-direction justify-evenly gap-x-0.5 gap-y-0 flex-nowrap'>
+      {#each sections as section, x}
+        <li class='w-full text-center'>
+          {#if x === 0}
+            <!--  Apply rouneded bottom left corner to 1st item-->
+            <a class='link block w-full  rounded-bl-lg py-0.5 px-4 text-lg text-amber-600 transition-all ease-in-out duration-600' href='#{section.href}'>
+             {section.title}
+            </a>
+          {:else if x===3}
+            <!--  Apply rouneded bottom right corner to 4th item-->
+            <a class='link block w-full rounded-br-lg py-0.5 px-4 text-lg text-amber-600 transition-all ease-in-out duration-600' href='#{section.href}'>
+             {section.title}
+            </a>
+          {:else}
+            <a class='link block w-full py-0.5 px-4 text-lg text-amber-600 transition-all ease-in-out duration-600' href='#{section.href}'>
+             {section.title}
+            </a>
+          {/if}
+        </li>
       {/each}
     </ul>
   </nav>
@@ -31,6 +47,8 @@
 
 <style>
   .link:hover {
-    text-shadow: 1px 1px 2px grey;
+    text-shadow: 0px 0px 2px #ffa215;
+    text-decoration: underline;
+    background-color: #242323;
   }
 </style>

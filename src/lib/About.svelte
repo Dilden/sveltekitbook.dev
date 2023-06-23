@@ -1,4 +1,4 @@
-<h3>About the Book</h3>
+<h2>About the Book</h2>
 <p>
 This book aims to be an easy-to-read guide introducing you to the core concepts of the refreshingly simple JavaScript (JS) framework known
 as SvelteKit. It was written to highlight what I felt were the core concepts of the framework. Because
