@@ -19,7 +19,7 @@
   ];
 </script>
 
-<div class='fixed top align-center w-screen grid grid-cols-4'>
+<div class='fixed top align-center w-screen grid grid-cols-4 z-30'>
   <nav class='z-150 bg-[#323131] rounded-b-lg drop-shadow-lg col-start-2 col-span-2'>
     <ul class='list-none flex flex-direction justify-evenly gap-x-0.5 gap-y-0 flex-nowrap'>
       {#each sections as section, x}
