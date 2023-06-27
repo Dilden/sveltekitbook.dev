@@ -6,6 +6,7 @@
   import Icons from '$lib/Icons.svelte';
   import Author from '$lib/Author.svelte';
   import FAQ from '$lib/FAQ.svelte';
+  import Copyright from '$lib/Copyright.svelte';
 </script>
 
 <svelte:head>
@@ -29,4 +30,7 @@
 </Section>
 <Section id='faq' classes='w-full max-h-screen p-20 bg-sky-400 bg-gradient-to-b from-zinc-400 to-sky-500'>
   <FAQ />
+</Section>
+<Section id='copyright' classes='w-full max-h-screen p-10 bg-slate-300'>
+  <Copyright />
 </Section>
