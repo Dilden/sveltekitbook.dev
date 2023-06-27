@@ -12,5 +12,5 @@
   <h1 class='text-6xl col-start-2 text-center text-slate-200'>SvelteKit Up and Running</h1>
   <h2 class='text-2xl col-start-2 text-center text-slate-200'>Building High Performance Web Apps with a Next Generation Framework</h2>
   <h3 class='text-xl col-start-2 text-center text-slate-200'>By Dylan Hildenbrand</h3>
-  <Button href='test' classes='col-start-2 justify-stretch'/>
+  <Button href='https://www.packtpub.com/product/sveltekit-up-and-running/9781804615485' classes='col-start-2 justify-stretch'/>
 </div>
