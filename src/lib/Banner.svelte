@@ -1,12 +1,12 @@
 <script>
   import Button from '$lib/tools/Button.svelte'
-  // import Book from '$lib/Book.svelte'
-  import Book2 from '$lib/Book2.svelte'
+  import Book from '$lib/Book.svelte'
+  // import Book2 from '$lib/Book2.svelte'
 </script>
 
 <div class='grid grid-rows-4 grid-cols-2 justify-items-center'>
   <div class='row-span-4 flex flex-col justify-center'>
-    <Book2 />
+    <Book />
   </div>
   <!-- <Book2 classes='row-span-3 justify-self-center' /> -->
   <h1 class='text-6xl col-start-2 text-center text-slate-200'>SvelteKit Up and Running</h1>

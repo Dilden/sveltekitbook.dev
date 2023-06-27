@@ -67,6 +67,7 @@ Table of Contents
 	position: relative;
 	width: 300px; 
 	height: 413px;
+  top: 50px;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
 	perspective: 1000px;
@@ -165,30 +166,36 @@ Table of Contents
 	-webkit-transform: rotateY(-28deg);
 	-moz-transform: rotateY(-28deg);
 	transform: rotateY(-28deg);
+  background-size: 100% 100%;
 }
 
 .page li:nth-child(2) {
 	-webkit-transform: rotateY(-30deg);
 	-moz-transform: rotateY(-30deg);
 	transform: rotateY(-30deg);
+  background-image: url('$lib/assets/sample-page.png');
+  background-size: 100% 100%;
 }
 
 .page li:nth-child(3) {
 	-webkit-transform: rotateY(-32deg);
 	-moz-transform: rotateY(-32deg);
 	transform: rotateY(-32deg);
+  background-size: 100% 100%;
 }
 
 .page li:nth-child(4) {
 	-webkit-transform: rotateY(-34deg);
 	-moz-transform: rotateY(-34deg);
 	transform: rotateY(-34deg);
+  background-size: 100% 100%;
 }
 
 .page li:nth-child(5) {
 	-webkit-transform: rotateY(-36deg);
 	-moz-transform: rotateY(-36deg);
 	transform: rotateY(-36deg);
+  background-size: 100% 100%;
 }
 
 /*
@@ -541,7 +548,7 @@ Table of Contents
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
-  background-image: url('$lib/assets/cover.jpeg');
+  background-image: url('$lib/assets/cover.png');
   background-size: 100% 100%;
 }
 
