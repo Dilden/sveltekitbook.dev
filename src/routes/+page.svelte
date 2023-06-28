@@ -17,7 +17,7 @@
 <Section id='buy' classes='w-full max-h-screen p-5 sm:p-20  bg-[#1a1a1a] bg-gradient-to-b from-[#1a1a1a] to-[#333232]'>
   <Banner />
 </Section>
-<Section id='content' classes='w-full p-5 sm:p-20  bg-slate-300 bg-gradient-to-b from-slate-300 to-zinc-500 shadow-inner'>
+<Section id='content' classes='w-full p-5 sm:p-20  bg-slate-300 bg-gradient-to-b from-slate-300 to-zinc-500 shadow-inset'>
   <About />
 </Section>
 <Section id='icons' classes='w-full relative p-5 sm:p-20  bg-[#f97141] shadow-inset'>
