@@ -2,20 +2,11 @@
 	import author from '$lib/assets/author.jpg';
 </script>
 
-<div class="grid grid-cols-2 items-center">
-	<div class="p-10 justify-self-start grid grid-cols-2 gap-4">
+<div class="grid grid-cols-1 lg:grid-cols-2 items-center">
+	<div class="justify-self-start grid grid-cols-2 gap-4 order-2 lg:order-1 py-2">
 		<h2 class="text-2xl col-span-2">Dylan Hildenbrand</h2>
 		<p class="col-span-2">
-			Dylan Hildenbrand is a freelance web developer and open source software enthusiast who enjoys
-			a good challenge. The past decade of experience as a full-stack developer has provided him
-			with a broad set of skills ranging all the way from system administration to front-end
-			development. While he enjoys working with JavaScript and Node.js, he also has years of
-			training with PHP, WordPress, and Yii2. In his spare time, he manages his homelab which is
-			automated using Ansible. To read more of his ramblings about web development and why Vim is
-			the best text editor, visit <a
-				class="underline text-amber-600"
-				href="https://www.closingtags.com/">https://www.closingtags.com</a
-			>.
+      Dylan Hildenbrand is a freelance web developer, consultant and open source software enthusiast who enjoys a good challenge. The past decade of experience as a full-stack developer has provided him with a broad set of skills ranging all the way from system administration to front-end development. While he enjoys working with JavaScript and Node.js, he also has years of training with PHP, WordPress, and Yii2. In his spare time, he manages his homelab which is automated using Ansible. To read more of his ramblings about web development and why Vim is the best text editor, visit <a class="underline text-amber-600" href="https://www.closingtags.com/">https://www.closingtags.com</a>.
 		</p>
 		<span class="col-span-1 text-center grid justify-items-end items-end">
       <svg
@@ -80,7 +71,7 @@
 		</span>
 	</div>
 	<img
-		class="h-96 w-96 object-cover object-[center_top] rounded-full justify-self-center"
+		class="h-96 w-96 object-cover object-[center_top] rounded-full justify-self-center lg:order-2 order-1 py-2"
 		src={author}
 		alt="Dylan Hildenbrand posing handsomly."
 	/>
