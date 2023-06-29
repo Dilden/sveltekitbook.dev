@@ -480,9 +480,9 @@ Table of Contents
 */
 
 .book:hover > .hardcover_front {
-	-webkit-transform: rotateY(-145deg) translateZ(0);
-	-moz-transform: rotateY(-145deg) translateZ(0);
-	transform: rotateY(-145deg) translateZ(0);
+	-webkit-transform: rotateY(-145deg) translateZ(0) ;
+	-moz-transform: rotateY(-145deg) translateZ(0) translateX(-25%);
+	transform: rotateY(-145deg) translateZ(0) translateX(-25%);
 	z-index: 0;
 }
 
