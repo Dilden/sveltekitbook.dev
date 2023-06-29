@@ -5,7 +5,7 @@
 </script>
 
 <div class='min-h-full grid grid-rows-2 lg:grid-rows-1 grid-cols-6 justify-items-center gap-y-5 m-2 lg:m-5'>
-  <div class='flex flex-col row-start-1 col-span-4 col-start-2 lg:col-span-3 lg:col-start-1 justify-center'>
+  <div class='flex flex-col row-start-1 col-span-6 col-start-1 lg:col-span-3 lg:col-start-1 justify-center'>
     <Book2 />
   </div>
   <div class='flex flex-col row-start-2 col-span-4 col-start-2 lg:col-span-3 lg:col-start-4 lg:row-start-1 gap-y-5 m-2 lg:m-5'>
