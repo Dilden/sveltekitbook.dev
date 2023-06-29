@@ -1,16 +1,16 @@
 <script>
   import Button from '$lib/tools/Button.svelte'
   import Book from '$lib/Book.svelte'
-  // import Book2 from '$lib/Book2.svelte'
 </script>
 
-<div class='grid grid-rows-4 grid-cols-2 justify-items-center'>
-  <div class='row-span-4 flex flex-col justify-center'>
+<div class='min-h-full grid grid-rows-2 lg:grid-rows-1 grid-cols-6 justify-items-center gap-y-16 m-2 lg:m-5'>
+  <div class='row-start-1 col-span-4 col-start-2 lg:col-span-3 lg:col-start-1 justify-center'>
     <Book />
   </div>
-  <!-- <Book2 classes='row-span-3 justify-self-center' /> -->
-  <h1 class='text-6xl col-start-2 text-center text-slate-200'>SvelteKit Up and Running</h1>
-  <h2 class='text-2xl col-start-2 text-center text-slate-200'>Building High Performance Web Apps with a Next Generation Framework</h2>
-  <h3 class='text-xl col-start-2 text-center text-slate-200'>By Dylan Hildenbrand</h3>
-  <Button href='test' classes='col-start-2 justify-stretch'/>
+  <div class='flex flex-col row-start-2 col-span-4 col-start-2 lg:col-span-3 lg:col-start-4 lg:row-start-1 gap-y-5 m-2 lg:m-5'>
+    <h1 class='text-6xl text-center text-slate-200'>SvelteKit Up and Running</h1>
+    <h2 class='text-2xl text-center text-slate-200'>Building High Performance Web Apps with a Next Generation Framework</h2>
+    <h3 class='text-xl text-center text-slate-200'>By Dylan Hildenbrand</h3>
+    <Button classes='justify-center' href='https://www.packtpub.com/product/sveltekit-up-and-running/9781804615485'/>
+  </div>
 </div>
