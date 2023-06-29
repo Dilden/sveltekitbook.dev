@@ -31,7 +31,7 @@
     </button>
   </div>
 
-  <nav class='z-40 bg-[#323131] rounded-b-lg drop-shadow-lg lg:col-start-2 col-span-3 block relative {isOpen ? "top-0" : "-top-[300%]" } transition-all duration-300'>
+  <nav class='z-40 bg-[#323131] rounded-b-lg drop-shadow-lg lg:col-start-2 col-span-3 block relative lg:top-0 {isOpen ? "top-0" : "-top-[300%]" } transition-all duration-300'>
     <ul class='list-none flex lg:flex-row flex-col justify-evenly gap-x-1 gap-y-0.5 flex-nowrap '>
       {#each sections as section, x}
         <li class='w-full text-right lg:text-center'>
