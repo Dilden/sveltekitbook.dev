@@ -16,13 +16,13 @@
 <Section id='buy'classes='w-full relative p-10 lg:p-20  bg-[#f97141] shadow-inner'>
   <Icons />
 </Section>
-<Section classes='w-full p-5 lg:p-20  bg-[#1a1a1a] bg-gradient-to-b from-[#1a1a1a] to-[#333232]'>
+<Section classes='w-full p-5 lg:p-20  bg-[#1a1a1a] bg-gradient-to-b from-[#333232] to-[#1a1a1a]'>
   <Banner />
 </Section>
 <Section id='content' classes='w-full relative p-5 lg:p-20  bg-[#f97141] shadow-inner'>
   <Icons />
 </Section>
-<Section classes='w-full p-5 lg:p-20  bg-slate-300 bg-gradient-to-b from-slate-300 to-zinc-500 shadow-inner'>
+<Section classes='w-full p-5 lg:p-20  bg-slate-300 bg-gradient-to-b from-slate-300 to-zinc-300 shadow-inner'>
   <About />
 </Section>
 <Section id='author' classes='w-full relative p-5 lg:p-20  bg-[#f97141] shadow-inner'>
