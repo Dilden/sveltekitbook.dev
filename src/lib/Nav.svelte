@@ -21,13 +21,13 @@
   const toggle = () => (isOpen = !isOpen);
 </script>
 
-<div class='fixed top align-center w-screen grid grid-cols-2 lg:grid-cols-6 {isOpen ? "h-auto z-30" : "h-0"}'>
+<div class='fixed top align-center w-screen grid grid-cols-2 lg:grid-cols-6 z-30 {isOpen ? "h-auto" : "h-0"}'>
 
   <div class='col-span-2 p-2 transition-all duration-100 delay-75 {isOpen ? "drop-shadow-none bg-[#323131] z-50" : ""} lg:hidden text-right'>
     <button class='relative w-[45px] h-[40px] m-2' on:click={toggle}>
-      <span class=' w-full absolute p-1 bg-[#f97141] transition-all ease-in-out duration-300 left-0 {isOpen ? "rotate-45 top-[16px]" : ""} top-0'> </span>
-      <span class=' w-full absolute p-1 bg-[#f97141] transition-all ease-in-out duration-300 left-0 {isOpen ? "bg-transparent" : ""} top-[16px]'> </span>
-      <span class=' w-full absolute p-1 bg-[#f97141] transition-all ease-in-out duration-300 left-0 {isOpen ? "-rotate-45 bottom-[16px]" : ""} bottom-0'> </span>
+      <span class=' w-full absolute p-1 bg-[#f97141] transition-all ease-in-out duration-300 left-0 shadow-[0_0_5px_black] {isOpen ? "rotate-45 top-[16px]" : ""} top-0'> </span>
+      <span class=' w-full absolute p-1 bg-[#f97141] transition-all ease-in-out duration-300 left-0 shadow-[0_0_5px_black] {isOpen ? "bg-transparent shadow-none" : ""} top-[16px]'> </span>
+      <span class=' w-full absolute p-1 bg-[#f97141] transition-all ease-in-out duration-300 left-0 shadow-[0_0_5px_black] {isOpen ? "-rotate-45 bottom-[16px]" : ""} bottom-0'> </span>
     </button>
   </div>
 
