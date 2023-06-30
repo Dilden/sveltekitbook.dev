@@ -6,8 +6,8 @@
 	<div class="justify-self-start grid grid-cols-3 gap-4 order-2 lg:order-1 py-2">
 		<h2 class="text-2xl col-span-3">Dylan Hildenbrand</h2>
 		<p class="col-span-3">
-      Dylan Hildenbrand is a freelance web developer, consultant and open source software enthusiast who enjoys a good challenge. The past decade of experience as a full-stack developer has provided him with a broad set of skills ranging all the way from system administration to front-end development. While he enjoys working with JavaScript and Node.js, he also has years of training with PHP, WordPress, and Yii2. In his spare time, he manages his homelab which is automated using Ansible. To read more of his ramblings about web development and why Vim is the best text editor, visit <a class="underline text-amber-600" href="https://www.closingtags.com/">https://www.closingtags.com</a>.
-		</p>
+Dylan Hildenbrand is a freelance full-stack web developer and consultant with a penchant for understanding how things work. Over the past decade, that desire to know “how things work” has led Dylan to a robust skillset ranging from front and back-end development to database administration, Linux server administration, and automation of application deployments and testing procedures. Dylan graduated from Minot State University in 2012 with a degree in Computer Science. While he enjoys working with JavaScript and Node.js, he also has years of training with PHP, WordPress, and Yii2. When not proselytizing to strangers about the benefits to free and open source software (FOSS), Dylan enjoys administering and automating his “homelab.” To read more of his ramblings about web development and why Vim is the best text editor, visit <a class="underline text-amber-600" href="https://www.closingtags.com/">https://www.closingtags.com</a>.
+    </p>
     <!-- GitHub -->
     <span class='col-span-1 text-center grid justify-items-center'>
       <a href='https://github.com/Dilden' class="svg_link transition ease-in-out duration-300">
