@@ -27,7 +27,7 @@
         beginning this book. Prior knowledge of <a href='https://svelte.dev' class='text-amber-800 hover:underline'>Svelte</a> and how it works will be very beneficial.
       </p>
       <p class='py-5'>
-        It also helps to have a computer to follow along with the provided code. Following along with the examples will ensure you're getting the experience inteded by the author. You'll need a MacOS, Windows, or Linux based computer with access to console or terminal for executing commands. You'll also need <a href='https://github.com/nvm-sh/nvm' class='text-amber-800 hover:underline'>Node.js v16 or higher</a> installed on your computer as well as a text editor. The code found in this book has been made <a href='https://github.com/PacktPublishing/SvelteKit-Up-and-Running' class='text-amber-800 hover:underline'>freely available on GitHub</a>.
+        It also helps to have a computer to follow along with the provided code. Following along with the examples will ensure you're getting the experience inteded by the author. You'll need a MacOS, Windows, or Linux based computer with access to console or terminal for executing commands. You'll also need <a href='https://github.com/nvm-sh/nvm' class='text-amber-800 hover:underline'>Node.js v16 or higher</a> installed on your computer as well as a text editor. The code found in this book has been made <a href='https://github.com/PacktPublishing/SvelteKit-Up-and-Running' class='text-amber-800 hover:underline'>freely available on GitHub</a>. Likewise, the code for this very website is <a href='https://github.com/Dilden/sveltekitbook.dev' class='text-amber-800 hover:underline'>also available on GitHub</a>.
       </p>
     </div>
 </details>
