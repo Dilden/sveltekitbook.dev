@@ -1,8 +1,5 @@
-<script>
-  export let classes;
-</script>
 <!-- https://tympanus.net/Development/AnimatedBooks/ -->
-<figure class='book {classes}'>
+<figure class='book hidden lg:block'>
   <!-- Front -->
   <ul class='hardcover_front'>
     <li>
