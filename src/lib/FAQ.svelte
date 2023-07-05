@@ -2,7 +2,7 @@
 <details class="open:bg-[#f97141] bg-[#333232] duration-300 my-5">
     <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Why did you write this book?</summary>
     <div class="bg-slate-300 px-5 py-3 border border-[#1a1a1a] text-[#1a1a1a]">
-      <p>This book was written to be concise and simple resource for other developers looking to learn a next generation JavaScript framework. It was written to provide the explanations and examples I wish I had when learning <a href='https://kit.svelte.dev' class='text-amber-800 hover:underline'>SvelteKit</a>.</p>
+      <p>This book was written to be concise and simple resource for other developers looking to learn a next generation JavaScript framework. It was written to provide the explanations and examples I wish I had when learning <a href='https://kit.svelte.dev' class='text-amber-600 hover:underline hover:text-amber-800'>SvelteKit</a>. The examples aim to be practical yet provide real-world demonstrations utilizing the concepts powering SvelteKit. After finishing this book, readers will have a high level understanding of SvelteKit and be able to build and release their very own SvelteKit-based applications and web sites.</p>
     </div>
 </details>
 <details class="open:bg-[#f97141] bg-[#333232] duration-300 my-5">
@@ -21,13 +21,13 @@
     <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Do I need anything before starting?</summary>
     <div class="bg-slate-300 px-5 py-3 border border-[#1a1a1a] text-[#1a1a1a]">
       <p class='py-5'>
-        Having a working knowledge of <a class='text-amber-800 hover:underline' href='https://developer.mozilla.org/en-US/docs/Web/HTML'>HTML</a>,
-        <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' class='text-amber-800 hover:underline'>CSS</a>, and 
-        <a href='https://developer.mozilla.org/en-US/docs/Web/javascript' class='text-amber-800 hover:underline'>JS</a> are a must before 
-        beginning this book. Prior knowledge of <a href='https://svelte.dev' class='text-amber-800 hover:underline'>Svelte</a> and how it works will be very beneficial.
+        Having a working knowledge of <a class='text-amber-600 hover:underline hover:text-amber-800' href='https://developer.mozilla.org/en-US/docs/Web/HTML'>HTML</a>,
+        <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' class='text-amber-600 hover:underline hover:text-amber-800'>CSS</a>, and 
+        <a href='https://developer.mozilla.org/en-US/docs/Web/javascript' class='text-amber-600 hover:underline hover:text-amber-800'>JS</a> are a must before 
+        beginning this book. Prior knowledge of <a href='https://svelte.dev' class='text-amber-600 hover:underline hover:text-amber-800'>Svelte</a> and how it works will be very beneficial.
       </p>
       <p class='py-5'>
-        It also helps to have a computer to follow along with the provided code. Following along with the examples will ensure you're getting the experience inteded by the author. You'll need a MacOS, Windows, or Linux based computer with access to console or terminal for executing commands. You'll also need <a href='https://github.com/nvm-sh/nvm' class='text-amber-800 hover:underline'>Node.js v16 or higher</a> installed on your computer as well as a text editor. The code found in this book has been made <a href='https://github.com/PacktPublishing/SvelteKit-Up-and-Running' class='text-amber-800 hover:underline'>freely available on GitHub</a>. Likewise, the code for this very website is <a href='https://github.com/Dilden/sveltekitbook.dev' class='text-amber-800 hover:underline'>also available on GitHub</a>.
+        It also helps to have a computer to follow along with the provided code. Following along with the examples will ensure you're getting the experience inteded by the author. You'll need a MacOS, Windows, or Linux based computer with access to console or terminal for executing commands. You'll also need <a href='https://github.com/nvm-sh/nvm' class='text-amber-600 hover:underline hover:text-amber-800'>Node.js v16 or higher</a> installed on your computer as well as a text editor. The code found in this book has been made <a href='https://github.com/PacktPublishing/SvelteKit-Up-and-Running' class='text-amber-600 hover:underline hover:text-amber-800'>freely available on GitHub</a>. Likewise, the code for this very website is <a href='https://github.com/Dilden/sveltekitbook.dev' class='text-amber-600 hover:underline hover:text-amber-800'>also available on GitHub</a>.
       </p>
     </div>
 </details>
@@ -64,9 +64,9 @@
     <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Where can I get it?</summary>
     <div class="bg-slate-300 px-5 py-3 border border-[#1a1a1a] text-[#1a1a1a]">
       <p>
-        SvelteKit Up and Running is available for preorder now! <a href='https://packt.link/bVAyJ' class='text-amber-800 hover:underline'>Click here</a>!
-        <!-- SvelteKit Up and Running is <a href='https://www.packtpub.com/product/sveltekit-up-and-running/9781804615485' class='text-amber-800 hover:underline'>available from Packt Publishing</a>!  -->
-        <!-- It can also be purchased on <a href='' class='text-amber-900 hover:underline'>Amazon</a>. -->
+        SvelteKit Up and Running is available for preorder now! <a href='https://packt.link/bVAyJ' class='text-amber-600 hover:underline hover:text-amber-800'>Click here</a>!
+        <!-- SvelteKit Up and Running is <a href='https://www.packtpub.com/product/sveltekit-up-and-running/9781804615485' class='text-amber-600 hover:underline hover:text-amber-800'>available from Packt Publishing</a>!  -->
+        <!-- It can also be purchased on <a href='' class='text-amber-600 hover:underline hover:text-amber-800'>Amazon</a>. -->
       </p>
     </div>
 </details>
