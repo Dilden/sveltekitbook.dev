@@ -1,5 +1,5 @@
 <script>
-  import cover from '$lib/assets/cover.png';
+  import cover from '$lib/assets/mobile-cover.png';
 </script>
 
-<img src={cover} alt='Cover of the book SvelteKit Up and Running' class='shadow-xl object-cover object-center w-full max-w-md h-auto lg:hidden'/>
+<img src={cover} alt='Cover of the book SvelteKit Up and Running' class='object-cover object-center w-full max-w-md h-auto lg:hidden'/>
