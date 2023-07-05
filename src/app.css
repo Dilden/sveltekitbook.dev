@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('/src/lib/assets/Outfit.ttf');
+@layer base {
+  html {
+    font-family: 'Outfit', sans-serif;
+    src: url('/src/lib/assets/Outfit.ttf');
+  }
+  p > a {
+    @apply text-amber-600 hover:text-amber-800 hover:underline;
+  }
+}
