@@ -64,9 +64,8 @@
     <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Where can I get it?</summary>
     <div class="bg-slate-300 px-5 py-3 border border-[#1a1a1a] text-[#1a1a1a]">
       <p>
-        SvelteKit Up and Running is available for preorder now! <a href='https://packt.link/bVAyJ'>Click here</a>!
-        <!-- SvelteKit Up and Running is <a href='https://www.packtpub.com/product/sveltekit-up-and-running/9781804615485' class='text-amber-600 hover:underline hover:text-amber-800'>available from Packt Publishing</a>!  -->
-        <!-- It can also be purchased on <a href='' class='text-amber-600 hover:underline hover:text-amber-800'>Amazon</a>. -->
+        SvelteKit Up and Running can be obtained in a DRM-free format directly from <a href='https://www.packtpub.com/product/sveltekit-up-and-running/9781804615485' class='text-amber-600 hover:underline hover:text-amber-800'>Packt Publishing</a>! 
+        It can also be purchased on <a href='https://packt.link/bVAyJ' class='text-amber-600 hover:underline hover:text-amber-800'>Amazon</a>.
       </p>
     </div>
 </details>

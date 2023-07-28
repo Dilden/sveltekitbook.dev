@@ -13,6 +13,6 @@
     <h1 class='text-6xl text-center text-slate-200'>SvelteKit Up and Running</h1>
     <h2 class='text-2xl text-center text-slate-200'>Leverage the power of a next-generation web framework to build high-performance web apps with ease</h2>
     <h3 class='text-xl text-center text-slate-200'>By Dylan Hildenbrand</h3>
-    <Button classes='justify-center' text='Preorder now!' href='https://packt.link/bVAyJ'/>
+    <Button classes='justify-center' text='Buy now!' href='https://packt.link/bVAyJ'/>
   </div>
 </div>
