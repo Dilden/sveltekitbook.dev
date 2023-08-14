@@ -6,11 +6,11 @@
 	<div class="justify-self-start grid grid-cols-3 gap-4 order-2 lg:order-1 py-2">
 		<h2 class="text-2xl col-span-3">Dylan Hildenbrand</h2>
 		<p class="col-span-3">
-Dylan Hildenbrand is a freelance full-stack web developer with a penchant for understanding how things work. Over the past decade, that desire to know “how things work” has led Dylan to a robust skillset ranging from front and back-end development to database administration, Linux server administration, and automation of application deployments and testing procedures. Dylan graduated from Minot State University in 2012 with a degree in Computer Science. While he enjoys working with JavaScript and Node.js, he also has years of training with PHP, WordPress, and Yii2. When not proselytizing to strangers about the benefits to free and open source software (FOSS), Dylan enjoys administering and automating his “homelab.” To read more of his ramblings about web development and why Vim is the best text editor, visit <a href="https://www.closingtags.com/">https://www.closingtags.com</a>.
+Dylan Hildenbrand is a freelance full-stack web developer with a penchant for understanding how things work. Over the past decade, that desire to know “how things work” has led Dylan to a robust skillset ranging from front and back-end development to database administration, Linux server administration, and automation of application deployments and testing procedures. Dylan graduated from Minot State University in 2012 with a degree in Computer Science and dove headfirst into the world of web development. While he enjoys working with JavaScript and Node.js, he also has years of training with PHP, WordPress, and Yii2. When not proselytizing to strangers about the benefits to free and open source software (FOSS), Dylan enjoys administering and automating his “homelab.” To read more of his ramblings about web development and why Vim is the best text editor, visit <a href="https://www.closingtags.com/" target="_blank">https://www.closingtags.com</a>.
     </p>
     <!-- GitHub -->
     <span class='col-span-1 text-center grid justify-items-center'>
-      <a href='https://github.com/Dilden' class="svg_link transition ease-in-out duration-300">
+      <a href='https://github.com/Dilden' target="_blank" class="svg_link transition ease-in-out duration-300">
         <svg viewBox="0 0 20 20" 
           class="w-[85px] trasition-all ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
           version="1.1" 
@@ -51,7 +51,7 @@ Dylan Hildenbrand is a freelance full-stack web developer with a penchant for un
           stroke="#CCCCCC"
           stroke-width="3.072"
         /><g id="SVGRepo_iconCarrier">
-          <a xlink:href="https://mastodon.social/@closingtags" class='transition-all ease-in-out duration-300 fill-[#f97141] hover:fill-[#8e3d20]'>
+          <a xlink:href="https://mastodon.social/@closingtags" target="_blank" class='transition-all ease-in-out duration-300 fill-[#f97141] hover:fill-[#8e3d20]'>
             <path d="m409 290c-5 24-43 50-85 56-86 11-137-6-137-6 3 13-4 54 70 52 31 0 58-7 58-7l2 27c-51 24-107 15-140 6-67-17-79-90-81-162v-59c0-74 49-96 49-96 50-24 180-22 222 0 0 0 49 22 49 96 0 0 1 55-7 93" />
             <path d="m358 202v91h-35v-88c0-18-8-27-23-27-18 0-27 11-27 33v47h-34v-47c0-22-9-33-27-33-15 0-23 9-23 27v88h-35v-91c0-18 5-60 52-60 39 0 50 37 50 37s10-37 50-37c45 0 52 42 52 60" fill='#cbd5e1' />
           </a>
@@ -60,7 +60,7 @@ Dylan Hildenbrand is a freelance full-stack web developer with a penchant for un
 		</span>
     <!-- Website -->
 		<span class="col-span-1 text-center grid justify-items-center">
-        <a class="transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300" href="https://www.closingtags.com/">
+        <a class="transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300" href="https://www.closingtags.com/" target="_blank">
 				<svg
 					class="w-[90px] -mt-[8px] transition ease-in-out duration-300 hover:stroke-[#8e3d20]"
 					viewBox="0 0 64 64"

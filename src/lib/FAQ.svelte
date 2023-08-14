@@ -69,3 +69,17 @@
       </p>
     </div>
 </details>
+<details class="open:bg-[#f97141] bg-[#333232] duration-300 my-5">
+    <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">Can you recommend any other SvelteKit resources?</summary>
+    <div class="bg-slate-300 px-5 py-3 border border-[#1a1a1a] text-[#1a1a1a]">
+      <p>If you have finished <u><b>SvelteKit Up and Running</b></u> and are interested in taking your SvelteKit skills to the next level, check out <a href='https://www.amazon.com/Svelte-Test-Driven-Development-Playwright-Cucumber-js-ebook/dp/B0BZ8MFY14/ref=sr_1_5' target='_blank'>Svelte with Test-Driven Development</a> by Daniel Irvine. This incredible book dives into effective testing strategies for SvelteKit. Readers will learn how to incorporate <a href='https://vitest.dev/' target='_blank'>Vitest</a> to ensure each component behaves as expected. It also covers how to use <a href='https://playwright.dev/' target='_blank'>Playwright</a> to ensure users are getting the intended experience of the application. This resource will prove invaluable to those who wish to prove their code works correctly and is thoroughly tested.</p>
+    </div>
+</details>
+<details class="open:bg-[#f97141] bg-[#333232] duration-300 my-5">
+    <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">I have more questions! What's the best way to reach you?</summary>
+    <div class="bg-slate-300 px-5 py-3 border border-[#1a1a1a] text-[#1a1a1a]">
+      <p>
+        The author of this book (and website) can be reached via the contact form at <a href='https://closingtags.com/contact' target='_blank'>https://closingtags.com/contact</a>. He's also on the Fediverse at <a href='https://mastodon.social/@closingtags' target='_blank'>Mastodon</a>!
+      </p>
+    </div>
+</details>
