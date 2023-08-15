@@ -65,7 +65,7 @@
     <div class="bg-slate-300 px-5 py-3 border border-[#1a1a1a] text-[#1a1a1a]">
       <p>
         SvelteKit Up and Running can be obtained in a DRM-free format directly from <a href='https://www.packtpub.com/product/sveltekit-up-and-running/9781804615485' class='text-amber-600 hover:underline hover:text-amber-800'>Packt Publishing</a>! 
-        It can also be purchased on <a href='https://packt.link/bVAyJ' class='text-amber-600 hover:underline hover:text-amber-800'>Amazon</a>.
+        It can also be purchased on <a href='https://packt.link/bVAyJ' class='text-amber-600 hover:underline hover:text-amber-800'>Amazon</a> but this author advises against purchasing there and instead recommends reading <a href='https://microcosmpublishing.com/catalog/zines/12043' target='_blank'>How to Resist Amazon and Why: The Fight for Local Economics, Data Privacy, Fair Labor, Independent Bookstores, and a People-Powered Future!</a> for various reasions why you should avoid using Amazon's platform.
       </p>
     </div>
 </details>
