@@ -1,24 +1,25 @@
 <script>
-	let { sections = [
-		{
-			title: 'Buy Now',
-			href: 'buy'
-		},
-		{
-			title: 'Book',
-			href: 'content'
-		},
-		{
-			title: 'Author',
-			href: 'author'
-		},
-		{
-			title: 'FAQ',
-			href: 'faq'
-		}
-	] } = $props();
+	let {
+		sections = [
+			{
+				title: 'Buy Now',
+				href: 'buy'
+			},
+			{
+				title: 'Book',
+				href: 'content'
+			},
+			{
+				title: 'Author',
+				href: 'author'
+			},
+			{
+				title: 'FAQ',
+				href: 'faq'
+			}
+		]
+	} = $props();
 	let isOpen = $state(false);
-	const toggle = () => (isOpen = !isOpen);
 </script>
 
 <!-- Container -->
@@ -33,7 +34,11 @@
 			? 'drop-shadow-none z-50 rounded-b-none lg:rounded-bl-none lg:rounded-br-none '
 			: ''} lg:hidden text-right rounded-b-lg lg:rounded-bl-none lg:rounded-br-lg"
 	>
-		<button class="relative w-[45px] h-[40px] m-2" onclick={toggle}>
+		<button
+			aria-label="Toggle Menu"
+			class="relative w-[45px] h-[40px] m-2"
+			onclick={() => (isOpen = !isOpen)}
+		>
 			<span
 				class=" w-full absolute p-1 bg-[#f97141] transition-all ease-in-out duration-300 left-0 shadow-[0_0_5px_black] {isOpen
 					? 'rotate-45 top-[16px] shadow-none'
