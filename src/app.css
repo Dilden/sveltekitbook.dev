@@ -8,6 +8,6 @@
     src: url('/src/lib/assets/Outfit.ttf');
   }
   p > a {
-    @apply text-amber-600 hover:text-amber-800 hover:underline;
+    @apply text-amber-800 hover:text-amber-600 hover:underline;
   }
 }
