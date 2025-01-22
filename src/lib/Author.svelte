@@ -27,6 +27,7 @@
 				href="https://github.com/Dilden"
 				target="_blank"
 				class="svg_link transition ease-in-out duration-300"
+				title="Dylan's Github Profile"
 			>
 				<svg
 					viewBox="0 0 20 20"
@@ -80,6 +81,8 @@
 					stroke-width="3.072"
 				/><g id="SVGRepo_iconCarrier">
 					<a
+						title="Dylan's Mastodon Profile"
+						aria-label="Dylan's Mastodon Profile"
 						xlink:href="https://mastodon.social/@closingtags"
 						target="_blank"
 						class="transition-all ease-in-out duration-300 fill-[#f97141] hover:fill-[#8e3d20]"
@@ -101,6 +104,7 @@
 				class="transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
 				href="https://www.closingtags.com/"
 				target="_blank"
+				title="Dylan's Website"
 			>
 				<svg
 					class="w-[90px] -mt-[8px] transition ease-in-out duration-300 hover:stroke-[#8e3d20]"
